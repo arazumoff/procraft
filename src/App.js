@@ -16,16 +16,16 @@ class App extends Component {
                     <div id="form" className="col-md-3">
                         <form>
                             <div className="row">
-                                <div className="col-sm-6">
+                                <div className="col-sm-6 first_name">
                                     <div className="form-group">
                                         <label htmlFor="first_name">Имя</label>
-                                        <input type="text" className="form-control input-lg" id="first_name" placeholder="Введите имя"/>
+                                        <input type="text" className="form-control input-lg" id="first_name" placeholder="Иван"/>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6 last_name">
                                     <div className="form-group">
                                         <label htmlFor="second_name">Фамилия</label>
-                                        <input type="text" className="form-control input-lg" id="second_name" placeholder="Введите фамилию"/>
+                                        <input type="text" className="form-control input-lg" id="second_name" placeholder="Иванов"/>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class App extends Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-md-12">
+                                <div className="col-md-12 text-center">
                                     <button className="btn btn-primary btn-lg">Зарегистрироваться</button>
                                 </div>
                             </div>
